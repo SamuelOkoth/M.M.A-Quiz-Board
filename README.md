@@ -8,7 +8,7 @@
 This website has been created as part of my Moringa School Friday IP and it is a website that has 3 questions on Coding and is used to test basic knowledge on coding.
 
 ##Installation.
-Install the Javascript-quiz board by cloning this repository:
+Install the Javascript-quiz board by cloning this repository:https://github.com/MarkAgimba/M.M.A-Quiz-Board
 
 ##BDD
 Behaviour	Driven Development
@@ -23,12 +23,12 @@ If one answers all questions wrong	0,0,0	the score returned is 0%
 No known bugs.
 
 ##Technologies Used
-HTML CSS Javascript
+HTML, CSS and Javascript
 
 ##Support and contact details
-email:markaguero16@gmail.com
+email:https://github.com/MarkAgimba/M.M.A-Quiz-Board
 
 ##License
 MIT
 
-##Copyright (c) 2019 
+##Copyright (c) 2019
