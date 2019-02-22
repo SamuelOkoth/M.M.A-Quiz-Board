@@ -17,8 +17,7 @@ $(document).ready(function(){
         var answerThree = ($("input[type=radio][name=questionThreeAnswer]:checked").val());
 
         if (answerOne === undefined || answerTwo === undefined || answerThree === undefined) {
-    $('#incompleteQuestions').text('You have not answered all the questions!');
-    $('#incompleteQuestions').fadeOut( "slow");
+    $('#incompleteQuestions').text('You have not answered all the questions! Kindly refresh and answer all.');
   } else {
            if (answerOne === answers[0]) {
       score += correctAnswerScore;
