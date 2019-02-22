@@ -1,5 +1,5 @@
 var answers = ["html","All of the above","yes"];
-var pointPerCorrect = 25;
+var correctAnswerScore = 25;
 
 
 function percentage(score) {
@@ -21,13 +21,13 @@ $(document).ready(function(){
     $('#incompleteQuestions').fadeOut(9500);
   } else {
            if (answerOne === answers[0]) {
-      score += pointPerCorrect;
+      score += correctAnswerScore;
     }
            if (answerTwo === answers[1]) {
-   score += pointPerCorrect;
+   score += correctAnswerScore;
     }
            if (answerThree === answers[2]) {
-   score += pointPerCorrect;
+   score += correctAnswerScore;
     }
 
 
