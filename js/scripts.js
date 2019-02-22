@@ -30,4 +30,13 @@ $(document).ready(function(){
    score += pointPerCorrect;
     }
 
-    
+
+       $("input[type=radio][name=questionOneChoice]:checked").prop('checked', false);
+       $("input[type=radio][name=questionTwoChoice]:checked").prop('checked', false);
+       $("input[type=radio][name=questionThreeChoice]:checked").prop('checked', false);
+       $('#questionsIncomplete').text('');
+       $('#result').text(percentage(score));
+}
+    event.preventDefault();
+});
+});
