@@ -18,7 +18,7 @@ $(document).ready(function(){
 
         if (answerOne === undefined || answerTwo === undefined || answerThree === undefined) {
     $('#incompleteQuestions').text('You have not answered all the questions!');
-    $('#incompleteQuestions').fadeOut(9500);
+    $('#incompleteQuestions').fadeOut( "slow");
   } else {
            if (answerOne === answers[0]) {
       score += correctAnswerScore;
@@ -29,7 +29,6 @@ $(document).ready(function(){
            if (answerThree === answers[2]) {
    score += correctAnswerScore;
     }
-
 
        $("input[type=radio][name=questionOneOption]:checked").prop('checked', false);
        $("input[type=radio][name=questionTwoOption]:checked").prop('checked', false);
