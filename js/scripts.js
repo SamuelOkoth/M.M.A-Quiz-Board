@@ -31,9 +31,9 @@ $(document).ready(function(){
     }
 
 
-       $("input[type=radio][name=questionOneChoice]:checked").prop('checked', false);
-       $("input[type=radio][name=questionTwoChoice]:checked").prop('checked', false);
-       $("input[type=radio][name=questionThreeChoice]:checked").prop('checked', false);
+       $("input[type=radio][name=questionOneOption]:checked").prop('checked', false);
+       $("input[type=radio][name=questionTwoOption]:checked").prop('checked', false);
+       $("input[type=radio][name=questionThreeOption]:checked").prop('checked', false);
        $('#questionsIncomplete').text('');
        $('#result').text(percentage(score));
 }

@@ -1,0 +1,18 @@
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black
+}
+#question{
+  text-align: left;
+  text-decoration-style: double;
+  text-decoration-color: blue;
+}
+#incompleteQuestions{
+  color:red;
+}
+.submit:hover {
+box-shadow:blue;
+background:blue;
+color:blue;
+}
