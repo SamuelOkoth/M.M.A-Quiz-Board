@@ -17,8 +17,8 @@ $(document).ready(function(){
         var answerThree = ($("input[type=radio][name=questionThreeAnswer]:checked").val());
 
         if (answerOne === undefined || answerTwo === undefined || answerThree === undefined) {
-    $('#questionsIncomplete').text('You have not answered all the questions!');
-    $('#questionsIncomplete').fadeOut(9500);
+    $('#incompleteQuestions').text('You have not answered all the questions!');
+    $('#incompleteQuestions').fadeOut(9500);
   } else {
            if (answerOne === answers[0]) {
       score += pointPerCorrect;
@@ -34,7 +34,7 @@ $(document).ready(function(){
        $("input[type=radio][name=questionOneOption]:checked").prop('checked', false);
        $("input[type=radio][name=questionTwoOption]:checked").prop('checked', false);
        $("input[type=radio][name=questionThreeOption]:checked").prop('checked', false);
-       $('#questionsIncomplete').text('');
+       $('#incompleteQuestions').text('');
        $('#result').text(percentage(score));
 }
     event.preventDefault();
