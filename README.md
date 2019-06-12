@@ -2,7 +2,7 @@
 
 ##This application is about a quiz-board based on Javascript and was created on, 22 February 2019.
 
-##Author{Mark Mugwere Agimba}
+##Author{Samuel Okoth}
 
 ##Description
 This website has been created as part of my Moringa School Friday IP and it is a website that has 3 questions on Coding and is used to test basic knowledge on coding.
@@ -26,7 +26,7 @@ No known bugs.
 JavaScript, CSS and HTML languages have been used in this application.
 
 ##Support and contact details
-email:https://github.com/MarkAgimba/M.M.A-Quiz-Board
+email:okothsamuel78@gmail.com
 
 ##License
 MIT
